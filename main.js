@@ -32,7 +32,7 @@ if (
 if (numberA % 2 == 1 && numberB % 2 == 1) {
   console.log("4-masala javobi: A va B sonlar Toq sonlar");
 } else {
-  consloe.log(
+  console.log(
     "4-masala javobi: A va B sonlar Ikkalasi ham toq emas toq sonlar kiriting e!"
   );
 }
@@ -41,7 +41,7 @@ if (numberA % 2 == 1 && numberB % 2 == 1) {
 if (numberA % 2 == 1 || numberB % 2 == 1) {
   console.log("5-masala javobi: A va B sonlarning biri Toq son");
 } else {
-  consloe.log("5-masala javobi: A va B sonlar orasida ham toq sonlar yoq!");
+  console.log("5-masala javobi: A va B sonlar orasida ham toq sonlar yoq!");
 }
 
 // 6-masala
@@ -51,7 +51,7 @@ if (
 ) {
   console.log("6-masala javobi: A va B sonlarning faqatgina biri Toq son");
 } else {
-  consloe.log(
+  console.log(
     "6-masala javobi: A va B sonlar Ikkalasi ham toq emas toq sonlar kiriting e!"
   );
 }
@@ -60,7 +60,7 @@ if (
 if (numberA > 0 && numberB > 0 && numberC > 0) {
   console.log("7-masala javobi: A, B va C  sonlarning hammasi musbat son");
 } else {
-  consloe.log("7-masala javobi: A, B va C  sonlarning hammasi musbat son emas");
+  console.log("7-masala javobi: A, B va C  sonlarning hammasi musbat son emas");
 }
 
 // 8-masala
@@ -73,7 +73,7 @@ if (
     "8-masala javobi: A, B va C  sonlarning faqatgina bittasi musbat son"
   );
 } else {
-  consloe.log(
+  console.log(
     "8-masala javobi: A, B va C  sonlarning faqatgina bittasi musbat son emas"
   );
 }
@@ -88,7 +88,7 @@ if (
     "9-masala javobi: A, B va C  sonlarning faqatgina ikkitasi musbat son"
   );
 } else {
-  consloe.log(
+  console.log(
     "9-masala javobi: A, B va C  sonlarning faqatgina bittasi musbat son emas"
   );
 }
