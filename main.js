@@ -1,6 +1,8 @@
-const numberA = +prompt("Marhamat A son yozishingiz mumkin:");
-const numberB = +prompt("Marhamat B son yozishingiz mumkin:");
-const numberC = +prompt("Marhamat C son yozishingiz mumkin:");
+// +______ Boolean tips______+
+
+const numberA = 1;
+const numberB = 2;
+const numberC = 3;
 
 // 1-masala
 if (numberA == "") {
@@ -153,3 +155,59 @@ if (
     "15-masala javobi: Bu sonlar chapdan o'ngga va ongdan chapga oqilda bir xil emas"
   );
 }
+
+// +______Begin tips______+
+
+// 1-masala
+const doiraRadius = 5;
+const doiraP = 3.14;
+
+// l= 2 * doiraP * doiraRadius
+// s= doiraP * doiraRadius^2
+
+console.log("Doiraning yuzi: ", doiraP * (doiraRadius ^ 2));
+console.log("Doiraning uznunligi: ", 2 * doiraP * doiraRadius);
+
+// 2-masala
+console.log("2-masala javobi: ", Math.sqrt(numberA * numberB));
+
+// 3-masala
+const numberX = numberA;
+console.log("3-masala javobi: ", 3 * (numberX ^ 6) - 6 * (numberX ^ 2) - 7);
+
+// 4-masala
+// tushunmadim
+
+// 5-masala
+let sonA = 3;
+let sonB = 7;
+
+console.log((sonA = sonB), (sonB = sonA));
+
+// +______Integer______+
+
+// 1-masala
+const ikkiXonaliSon = 23;
+console.log("Birliklar xonasidagi son: ", ikkiXonaliSon % 10);
+console.log(
+  "O'nliklar xonasidagi son: ",
+  (ikkiXonaliSon - (ikkiXonaliSon % 10)) / 10
+);
+
+// 2-masala
+console.log(ikkiXonaliSon);
+console.log(ikkiXonaliSon % 10, (ikkiXonaliSon - (ikkiXonaliSon % 10)) / 10);
+
+// 3-masala
+const uchXonaliSon = 123;
+console.log("3-masala javobi: ", (uchXonaliSon - (uchXonaliSon % 100)) / 100);
+
+// 4-masala
+const input = 1239;
+console.log("4-masala javobi: ", ((input - (input % 100)) / 100) % 10);
+
+// 5-masala
+const nSekund = 7200;
+console.log(nSekund, "sekund");
+console.log(nSekund / 60, "minut");
+console.log(nSekund / 3600, "soat");
